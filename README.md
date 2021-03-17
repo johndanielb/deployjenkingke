@@ -1,4 +1,4 @@
-# Jenkins app deployment on GKE cluster using GitHub Actions.
+# Jenkins deployment on GKE cluster using GitHub Actions.
 
 
 ## Workflow
