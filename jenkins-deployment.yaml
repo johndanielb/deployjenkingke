@@ -13,8 +13,9 @@ spec:
         app: jenkins
     spec:
       containers:
-      - name: jenkins
-        image: jenkins/jenkins:lts
+      - name: app
+        image: gcr.io/PROJECT_ID/IMAGE:TAG
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         volumeMounts:
